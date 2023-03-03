@@ -2,7 +2,7 @@
 
 The proposed structure is described as follows.
 
-```
+```sh
 flask_layout_crawler_benefits/
     app/
     ├── config/
