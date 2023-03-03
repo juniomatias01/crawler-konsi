@@ -71,4 +71,4 @@ to obtain the desired data.
             return response
         else:
             # The number of the benefit its inside the beneficios key and its named nb
-            return response["benefits"][0]["nb"]
+            return response["beneficios"][0]["nb"]

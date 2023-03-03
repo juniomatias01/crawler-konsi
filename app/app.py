@@ -1,7 +1,6 @@
 from flask import Flask
 from flask_swagger_ui import get_swaggerui_blueprint
 from controller.benefits_controller import benefits_blue_print
-import os
 
 app = Flask(__name__)
 app.register_blueprint(benefits_blue_print)

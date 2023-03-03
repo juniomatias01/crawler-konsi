@@ -23,7 +23,7 @@ def get_detailed_benefits():
             login_user=login_user,
             login_password=login_password,
         ).get_benefits(cpf=cpf)
-        return jsonify(benefit_number=benefit), 200
+        return jsonify(numero_beneficio=benefit), 200
 
     except Exception as error:
         return jsonify(error=error), 400

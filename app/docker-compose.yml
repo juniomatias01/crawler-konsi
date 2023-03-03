@@ -7,7 +7,7 @@ services:
             - ".:/root/app"
             - "app_upload:/root/app/upload"
         ports:
-            - "5010:5010"
+            - "3000:3000"
         restart: always
 
         

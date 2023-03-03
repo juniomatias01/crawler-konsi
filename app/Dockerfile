@@ -30,4 +30,4 @@ ENV LC_ALL C.UTF-8
 
 COPY . /root/app/app
 
-ENTRYPOINT ["flask", "run", "--host=0.0.0.0", "--port=5010"]
+ENTRYPOINT ["flask", "run", "--host=0.0.0.0", "--port=3000"]
