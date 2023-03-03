@@ -1,0 +1,15 @@
+version: '3'
+services:
+    app:
+        build: .
+        container_name: crawler_app_upload
+        volumes:
+            - ".:/root/app"
+            - "app_upload:/root/app/upload"
+        ports:
+            - "5010:5010"
+        restart: always
+
+        
+volumes:
+    app_upload:

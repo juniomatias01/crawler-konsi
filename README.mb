@@ -1,0 +1,27 @@
+app/
+│── config.py
+│── __init__.py
+│
+├── controller/
+│   ├── __init__.py
+│   ├── benefits_controller.py
+│   └── errors_controller.py
+│
+├── model/
+│   ├── __init__.py
+│   └── crawler_client.py
+│
+├── service/
+│   ├── __init__.py
+│   └── benefits_service.py
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── script.js
+│
+└── templates/
+    ├── base.html
+    ├── benefits.html
+    └── errors.html
