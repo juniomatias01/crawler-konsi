@@ -1,4 +1,4 @@
-# Crawler Benefits API 1.0.0 
+# Crawler Benefits API 1.0.0
 
 The proposed structure is described as follows.
 
@@ -37,24 +37,23 @@ flask_layout_crawler_benefits/
 ## Starting the development environment
 
 ### Using Docker
+
 Building the container
 
-```sh
-$ docker-compose up --build -d
+```shell
+docker-compose up --build -d
 ```
 
 ### For Swagger Documentation open link below on browser
 
-Swagger: http://localhost:3000/api/docs
+Swagger: <http://localhost:3000/api/docs>
 
 ### To run the tests
 
-```sh
-$ docker exec -it crawler_benefits_api_dev_app bash
+```shell
+docker exec -it crawler_app_upload bash
 ```
 
-```sh
+```shell
 @container $ python -m unittest discover -v
 ```
-
-
